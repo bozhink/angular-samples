@@ -1,0 +1,21 @@
+{
+  "name": "angular-samples",
+  "description": "AngularJS samples",
+  "main": "app.js",
+  "authors": [
+    "Bozhin Karaivanov"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "AngularJS",
+    "samples"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

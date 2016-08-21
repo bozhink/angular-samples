@@ -1,0 +1,15 @@
+{
+  "name": "angular-samples",
+  "version": "0.0.0",
+  "description": "AngularJS samples",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "AngularJS",
+    "samples"
+  ],
+  "author": "Bozhin Karaivanov",
+  "license": "MIT"
+}

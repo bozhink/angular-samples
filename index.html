@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="bower_components/angular/angular.min.js"></script>
+</head>
+<body>
+    <div ng-app="myApp">
+        <div ng-controller="HomeController">
+            <input type="text" ng-model="userinput"/><br/>
+            <div>{{userinput}}</div><br/>
+            {{hello}}
+            <a ng-click="fire()">Fire</a>
+        </div>
+    </div>
+    <script>
+        angular.module('myApp', []);
+
+        angular.module('myApp')
+            .controller('HomeController', function HomeController($scope) {
+                $scope.hello = 'Hello!';
+                $scope.fire = function() {
+                    alert('1');
+                }
+            });
+    </script>
+</body>
+</html>

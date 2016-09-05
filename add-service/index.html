@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Use custom service in Angular</title>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-app="sampleApp">
+
+    <div ng-controller="ControllerA">
+      <ul>
+        <li ng-repeat="item in menu">{{item}}</li>
+      </ul>
+      <input type="text" ng-model="newItem" />
+      <input type="submit" ng-click="addItem()" />
+    </div>
+
+    <div ng-controller="ControllerA">
+      <ul>
+        <li ng-repeat="item in menu">{{item}}</li>
+      </ul>
+    </div>
+
+  </body>
+</html>
